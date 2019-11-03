@@ -2,8 +2,7 @@
 
 As-tu déjà travaillé en entreprise ou sur un projet étudiant ? Si oui, tu t'es peut-être déjà retrouvé dans mon cas avec un dossier qui ressemble à ça :
 
-
-
+```
 .
 └── big_project
   
@@ -18,6 +17,7 @@ As-tu déjà travaillé en entreprise ou sur un projet étudiant ? Si oui, tu t'
    ├── big_project.xls
    
    └── [WIP] big_project_fin.xls
+   ````
 	
 	
 En gros, c'est souvent le bordel dans le monde des moldus du code. Ces derniers passent leur temps à créer des milliers de fichiers, juste au cas où ils auraient besoin de revenir à une version précédente.
@@ -30,13 +30,6 @@ Maintenant, imagine devoir travailler en équipe sur des dossiers de code conten
 * Pourquoi : pourquoi cette modification existe-t-elle ?
 
 Avec un tel logiciel, fini le stress et les dossiers remplis de fichiers inutiles ! Bonne nouvelle : ce genre de logiciels existe et on les appelle des "gestionnaires de version" (version control software). J'aime bien ce schéma de [GitTower](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/basics/what-is-version-control) qui explique bien à quoi ils servent :
-
-
-
-
-
-
-
 
 
 
@@ -54,7 +47,7 @@ En gros, voici ce que font Git et GitHub :
 
 * Git est un logiciel de gestion de versions. C'est à dire, un logiciel permettant de photographier à l'instant T les fichiers d'un dossier.
 * GitHub est un service en ligne qui utilise Git, et qui permet entre autres de :
-    *Mettre en ligne ses dossiers Git (dans ce qu'on appelle "un repository").
+    * Mettre en ligne ses dossiers Git (dans ce qu'on appelle "un repository").
     * Collaborer à plusieurs sur un même dossier Git.
 	
 	
@@ -471,10 +464,11 @@ $ git checkout master
 table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
 	
 # ⚠️ ALERTE ERREUR COMMUNE
-N'utilise pas cette commande si tu veux faire des modifications sur un fichier. Si jamais tu fais ça, tu auras droit à une erreur te faisant atterrir sur l'un des threads les plus célèbres de Stack Overflow. Si jamais tu veux revenir en arrière pour faire des modifications, passe à la section suivante.
+N'utilise pas cette commande si tu veux faire des modifications sur un fichier. Si jamais tu fais ça, tu auras droit à une erreur te faisant atterrir [sur l'un des threads les plus célèbres](https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin) de Stack Overflow. Si jamais tu veux revenir en arrière pour faire des modifications, passe à la section suivante.
 </td><tr></table>
 
 table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
+	
 # ⚠️ ALERTE ERREUR COMMUNE
 git checkout ne marche que si tu n'as aucune modification non sauvegardée. Si tu es entre deux commits, git checkout te renverra cette erreur :
 
@@ -499,9 +493,9 @@ $ git reset --hard SHA
 (en remplaçant "SHA" par le code reçu lors du git log)
 
 <table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
-	
+
 # 🚀 ALERTE BONNE ASTUCE
-La commande git reset est aussi un bon moyen pour effacer son travail actuel et revenir au commit précédent. Imagine par exemple que tu es en train de travailler sur la diapo de Jean-Michel. En plein milieu, tu te dis que ton approche est mauvaise et tu as soudain envie d'effacer tout ce que tu as fait jusqu'à présent. Plutôt que de faire CTRL + Z plein de fois, tu peux rentrer la commande suivante :
+La commande git reset est aussi un bon moyen pour effacer son travail actuel et revenir au commit précédent. Imagine par exemple que tu es en train de travailler sur la diapo de Jean-Michel. En plein milieu, tu te dis que ton approche est mauvaise et tu as soudain envie d'effacer tout ce que tu as fait jusqu'à présent. Plutôt que de faire CTRL + Z plein de fois, tu peux rentrer la commande suivante.
 </td><tr></table>
 
 ```
