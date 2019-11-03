@@ -446,7 +446,7 @@ Il y a deux façons de revenir en arrière :
 La première est à titre purement indicatif, et te servira seulement à observer un état précédent
 La seconde est un retour définitif en mode "je veux revenir à tel endroit pour retravailler à partir de là"
 
-##3.7.1. Retour en arrière à titre purement indicatif
+## 3.7.1. Retour en arrière à titre purement indicatif
 Imaginons que tu veux juste jeter un oeil sur un fichier à un instant T. Pour ceci, tu rentrerais la commande :
 
 ```
@@ -461,13 +461,13 @@ Tu peux ainsi naviguer dans l'ancienne version pour consulter les fichiers à ce
 $ git checkout master
 ```
 
-table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
+<table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
 	
 # ⚠️ ALERTE ERREUR COMMUNE
 N'utilise pas cette commande si tu veux faire des modifications sur un fichier. Si jamais tu fais ça, tu auras droit à une erreur te faisant atterrir [sur l'un des threads les plus célèbres](https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin) de Stack Overflow. Si jamais tu veux revenir en arrière pour faire des modifications, passe à la section suivante.
 </td><tr></table>
 
-table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
+<table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
 	
 # ⚠️ ALERTE ERREUR COMMUNE
 git checkout ne marche que si tu n'as aucune modification non sauvegardée. Si tu es entre deux commits, git checkout te renverra cette erreur :
