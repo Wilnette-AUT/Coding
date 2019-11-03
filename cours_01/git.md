@@ -1,5 +1,5 @@
 # 1. Introduction
-<div style="width: 200px; padding-top: 15px; padding-bottom: 15px; border: 3px solid #FF006E; text-align: center; background: #FF00DC;border-radius: 10px;"><strong>As-tu déjà travaillé en entreprise ou sur un projet étudiant ? Si oui, tu t'es peut-être déjà retrouvé dans mon cas avec un dossier qui ressemble à ça :</strong></div>
+As-tu déjà travaillé en entreprise ou sur un projet étudiant ? Si oui, tu t'es peut-être déjà retrouvé dans mon cas avec un dossier qui ressemble à ça :
 
 .
 └── big_project
