@@ -7,6 +7,8 @@
 
 
  ### Description du cours
+ Hello et bienvenue sur mon compte gitHub !
+ 
  Maintenant que nous avons compris comment fonctionne un terminal, faire une mise en page et gérér gitHub on va maintenant devoir créer un dossier "cours_code" dans lequel il y a 4 sous dossier et 2 fichiers.
  Il faudra ensuite déposer le contenu sur notre compte GitHub.
 
@@ -22,7 +24,7 @@ Le dossier "cours_code contient 4 sous dossier et 2 fichiers:
 ### Personne qui ont contribué au cours
 * AUTOLUS Wilnette
 * DA COSTA Claudia
-* GAUDE Felix
+
 
 
 ### Contexte du cours
