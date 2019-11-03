@@ -1,4 +1,4 @@
-#README
+# README
 **· Intitulé de la formation** : Initiation au code pour créer son propre site web
 **· Volume horaire** : 8h de cours + 15h de projets
 **· Enseignant :** Félix Gaudé pour le cours, nous-mêmes pour les projets
@@ -20,7 +20,7 @@ Le dossier "cours_code contient 4 sous dossier et 2 fichiers:
 ### Personne qui ont contribué au cours
 * AUTOLUS Wilnette
 * DA COSTA Claudia
-*GAUDE Felix
+* GAUDE Felix
 
 
 ### Contexte du cours
