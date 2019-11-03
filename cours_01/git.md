@@ -1,5 +1,4 @@
 # 1. Introduction
-
 As-tu déjà travaillé en entreprise ou sur un projet étudiant ? Si oui, tu t'es peut-être déjà retrouvé dans mon cas avec un dossier qui ressemble à ça :
 
 ```
@@ -30,7 +29,6 @@ Maintenant, imagine devoir travailler en équipe sur des dossiers de code conten
 * Pourquoi : pourquoi cette modification existe-t-elle ?
 
 Avec un tel logiciel, fini le stress et les dossiers remplis de fichiers inutiles ! Bonne nouvelle : ce genre de logiciels existe et on les appelle des "gestionnaires de version" (version control software). J'aime bien ce schéma de [GitTower](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/basics/what-is-version-control) qui explique bien à quoi ils servent :
-
 
 
 
