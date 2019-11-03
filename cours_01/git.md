@@ -1,6 +1,8 @@
 # 1. Introduction
 As-tu déjà travaillé en entreprise ou sur un projet étudiant ? Si oui, tu t'es peut-être déjà retrouvé dans mon cas avec un dossier qui ressemble à ça :
 
+<html> <head> </head> <body bgcolor="#FFFFFF" text="#000000"> ici le texte est écrit en noir <FONT COLOR="#FF0000">Ici en rouge</font> </body> </html>
+
 .
 └── big_project
   
@@ -71,21 +73,26 @@ Pour installer Git, rien de plus simple : va sur le site du même nom dans la ru
 
 
 
-># 🚀 ALERTE BONNE ASTUCE
->
->Git est un logiciel **CLI** (Command Line Interface). Avec ce type de logiciels, tout passe par le terminal. Il s'oppose à **GUI**, Graphical User Interface.
->
->Exemple : lorsque tu utilises la GUI de ton explorateur de fichiers, tu double-cliques sur un fichier pour l'ouvrir. Avec la CLI, tu tapes la commande $ open nom_du_fichier dans ton terminal. Autre exemple : pour créer un dossier en GUI, tu cliques droit -> nouveau dossier en GUI. En CLI, tu tapes $ mkdir nom_dossier dans ton terminal.
->
+<table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
+
+# 🚀 ALERTE BONNE ASTUCE
+
+Git est un logiciel **CLI** (Command Line Interface). Avec ce type de logiciels, tout passe par le terminal. Il s'oppose à **GUI**, Graphical User Interface.
+
+Exemple : lorsque tu utilises la GUI de ton explorateur de fichiers, tu double-cliques sur un fichier pour l'ouvrir. Avec la CLI, tu tapes la commande $ open nom_du_fichier dans ton terminal. Autre exemple : pour créer un dossier en GUI, tu cliques droit -> nouveau dossier en GUI. En CLI, tu tapes $ mkdir nom_dossier dans ton terminal.
+
 Bref, toutes les actions de ce cours traiteront de la CLI et passeront par le terminal avec les commandes que nous allons t'enseigner. Il existe [des versions GUI](https://git-scm.com/downloads/guis) pour Git, mais elles ne seront pas enseignées dans ce cours pour plusieurs raisons :
 
 * Un peu comme Photoshop, la version GUI peut faire très peur avec ses milliers de boutons.
 * Pas besoin d'avoir moult softwares installés : il suffit d'un terminal et à toi la gloire !
 * Le but de cette semaine est de te donner les bases pour comprendre l'univers du développement. La version GUI n'étant pas utilisée par les devs, l'enseigner ne répond pas à notre vision : rendre l'univers du développement plus accessible.
-
+</td><tr></table>
 Lance (ou relance) ton terminal, puis rentre la ligne suivante :
 
+``
 $ git --version
+``
+
 Le terminal devrait te renvoyer quelque chose comme : git version X.XX.X. S'il te renvoie un truc du genre command not found: git, c'est que tu n'as pas installé Git ou relancé ton terminal !
 
 Pour se servir de Git, c'est simple : il suffit de rentrer dans le terminal les commandes $ git truc ou git machin pour lui faire exécuter truc ou machin. Voyons maintenant la commande permettant d'initialiser un dossier git.
@@ -93,10 +100,14 @@ Pour se servir de Git, c'est simple : il suffit de rentrer dans le terminal les 
 ## 3.1.2. Mise en place de ton dossier : git init et git status
 Avant de commencer, il faut dire au logiciel Git : "ceci est un dossier de travail correspondant à un projet. Initialise Git dans ce dossier stp". En gros, tu vas initialiser un repository Git, ce qui te permettra de faire des photographies à l'instant T. Pour ceci, mets-toi dans un dossier de travail (avec la commande cd) et exécute la commande suivante :
 
+``
 $ git init
 Initialized empty Git repository in /home/felix/Desktop/my_big_project/.git/
-# ⚠️ ALERTE ERREUR COMMUNE
+``
+
+⚠️ ALERTE ERREUR COMMUNE</strong>
 Quand on débute dans le code, on a tendance à faire git init à la volée un peu partout. Il ne faut pas. Voici les types de dossiers dans lesquels tu dois initialiser des repository :
+
 
 * Un dossier contenant le code de ton projet Google.
 * Un dossier contenant le projet d'un site internet.
