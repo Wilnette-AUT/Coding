@@ -1,8 +1,7 @@
 # 1. Introduction
-<div style="padding:5px; border:2px solid #656ab0; -moz-border-radius:9px; -khtml-border-radius:9px; -webkit-border-radius:9px; border-radius:9px;">
-<div style="font-size: 3em; float: left; width: 40px; text-align: center; margin-right: 5px; height: 20px; padding:3px;">
+<div style="width: 200px; padding-top: 15px; padding-bottom: 15px; border: 3px solid #FF006E; text-align: center; background: #FF00DC;border-radius: 10px;"><strong>
 As-tu déjà travaillé en entreprise ou sur un projet étudiant ? Si oui, tu t'es peut-être déjà retrouvé dans mon cas avec un dossier qui ressemble à ça :
-</div>
+</strong></div>
 
 .
 └── big_project
