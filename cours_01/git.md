@@ -403,6 +403,7 @@ Comme nous l'avons vu, Git permet non seulement de faire des sauvegardes propres
 * Déterminer la raison du retour arrière :
       * Est-ce à titre purement indicatif, juste pour regarder ce qui a été fait avant ?
       * S'agit-il d'un retour en arrière définitif ?
+      
 ### 3.1.4.1. Regarder l'historique des versions
 La commande git log permet de connaitre les commits faits sur le projet. Par exemple pour ton projet de restaurant, git log ressemblerait à ceci :
 
@@ -494,9 +495,9 @@ $ git reset --hard SHA
 
 # 🚀 ALERTE BONNE ASTUCE
 La commande git reset est aussi un bon moyen pour effacer son travail actuel et revenir au commit précédent. Imagine par exemple que tu es en train de travailler sur la diapo de Jean-Michel. En plein milieu, tu te dis que ton approche est mauvaise et tu as soudain envie d'effacer tout ce que tu as fait jusqu'à présent. Plutôt que de faire CTRL + Z plein de fois, tu peux rentrer la commande suivante.
-</td><tr></table>
 
 ```
 $ git reset --hard
 ```
 Et hop ! Tu reviens à ton dernier commit. Très pratique pour tester des concepts à la volée, ou quand tu n'as pas envie de commit les changements que tu viens de faire.
+</td><tr></table>
