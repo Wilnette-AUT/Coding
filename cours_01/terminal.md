@@ -1,4 +1,3 @@
-# Cours UPEC
 
 ### 1\. Introduction
 
